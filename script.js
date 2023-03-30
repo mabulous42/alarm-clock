@@ -38,7 +38,7 @@ let hour = document.getElementById("hour");
                 setTimeout(() => {
                     display.innerHTML = ("Alarm Off");
                     audio.pause();
-                }, 60000);
+                }, 10000);
             }
         }
         setInterval(alarmTime, 1000);

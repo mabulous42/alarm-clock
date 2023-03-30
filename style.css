@@ -1,7 +1,81 @@
-#big-div {
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.alarm-div {
+#show-clock-div {
     display: flex;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
+
+.alarm-text{
+    font-size: 25px;
+    background-color: rgb(25,207,233);
+    color: black;
+    /* padding: 10px; */
+    width: 100%;
+    padding: 10px 0;
+}
+
+.set-alarm-div{
+    box-shadow: 0 0 5px 5px rgba(25, 205, 233, 0.062);
+    width: 250px;
+    /* height: 80px; */
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+}
+
+.alarm-div {    
+    display: flex;
+    align-items: center;
+}
+
+#alarm-set{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    width: 300px;
+    background-color: rgb(16, 16, 19);
+    color: rgb(25,207,233);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid rgb(25,207,233);
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+
+select{
+    height: 25px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.minutes-text{
+    margin-left: 10px;
+}
+
+H4{
+    margin-bottom: 10PX;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: rgb(25,207,233);
+}
+
